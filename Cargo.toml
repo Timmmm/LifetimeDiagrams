@@ -1,0 +1,10 @@
+[package]
+name = "lifetime_diagrams"
+version = "0.1.0"
+authors = ["Tim Hutt <tdhutt@gmail.com>"]
+
+[dependencies]
+lazy_static = "0.2.2"
+regex = "0.2.0"
+svg = "0.5.4"
+markdown = "0.2"

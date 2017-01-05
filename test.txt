@@ -1,0 +1,11 @@
+{
+    let r;         // -------\ Lifetime `r`, which can be denoted `'a`.
+
+    {
+        let x = 5; // -\ Lifetime of `x`, which we can call `'b`.
+        r = &x;
+    }              // -/
+
+    println!("r: {}", r);
+
+}                  // -------/
